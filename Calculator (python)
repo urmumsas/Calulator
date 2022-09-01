@@ -1,0 +1,162 @@
+while True:
+    
+
+    import time
+    import sys
+
+    def calculatorAddFunction():
+        num1 = float(input("What is your first number?: "))
+        num2 = float(input("What is your second number?: "))
+        print("Here is your answer:")
+        time.sleep(2)
+        print(num1 + num2)
+    
+    def calculatorSubtractFunction():
+        num1 = float(input("What is your first number?: "))
+        num2 = float(input("What is your second number?: "))
+        print("Here is your answer:")
+        time.sleep(1)
+        print(num1 - num2)
+    
+    def calculatorMultiplyFunction():
+        num1 = float(input("What is your first number?: "))
+        num2 = float(input("What is your second number?: "))
+        print("Here is your answer:")
+        time.sleep(1)
+        print(num1 * num2)
+    
+    def calculatorDivideFunction():
+        num1 = float(input("What is your first number?: "))
+        num2 = float(input("What is your second number?: "))
+        print("Here is your answer:")
+        time.sleep(1)
+        print(num1 / num2)
+    
+    def calculatorMeanFunction():
+        NumAmount = float(input("What is your amount of numbers?: "))
+        if choice == 1:
+            print("Invalid amount of numbers")
+        elif NumAmount == 2:
+            num1 = float(input("Enter your first number: "))
+            num2 = float(input("Enter your second number: "))
+            phase1 = num1 + num2
+            phase2 = phase1 / NumAmount
+            print(phase2)
+        elif NumAmount == 3:
+            num1 = float(input("Enter first number: "))
+            num2 = float(input("Enter second number: "))
+            num3 = float(input("Enter third number: "))
+            phase1 = num1 + num2 + num3
+            phase2 = phase1 / NumAmount
+            print(phase2)
+        elif NumAmount == 4:
+            num1 = float(input("Enter first number: "))
+            num2 = float(input("Enter second number: "))
+            num3 = float(input("Enter third number: "))
+            num4 = float(input("Enter fourth number: "))
+            phase1 = num1 + num2 + num3 + num4
+            phase2 = phase1 / NumAmount
+            print(phase2)
+        elif NumAmount == 5:
+            num1 = float(input("Enter first number: "))
+            num2 = float(input("Enter second number: "))
+            num3 = float(input("Enter third number: "))
+            num4 = float(input("Enter fourth number: "))
+            num5 = float(input("Enter fifth number: "))
+            phase1 = num1 + num2 + num3 + num4 + num5
+            phase2 = phase1 / NumAmount
+            print(phase2)
+        elif NumAmount == 6:
+            num1 = float(input("Enter first number: "))
+            num2 = float(input("Enter second number: "))
+            num3 = float(input("Enter third number: "))
+            num4 = float(input("Enter fourth number: "))
+            num5 = float(input("Enter fifth number: "))
+            num6 = float(input("Enter sixth number: "))
+            phase1 = num1 + num2 + num3 + num4 + num5 + num6
+            phase2 = phase1 / NumAmount
+            print(phase2)
+        elif NumAmount == 7:
+            num1 = float(input("Enter first number: "))
+            num2 = float(input("Enter second number: "))
+            num3 = float(input("Enter third number: "))
+            num4 = float(input("Enter fourth number: "))
+            num5 = float(input("Enter fifth number: "))
+            num6 = float(input("Enter sixth number: "))
+            num7 = float(input("Enter 7th number: "))
+            phase1 = num1 + num2 + num3 + num4 + num5 + num6 + num7
+            phase2 = phase1 / NumAmount
+            print(phase2)
+        elif NumAmount == 8:
+            num1 = float(input("Enter first number: "))
+            num2 = float(input("Enter second number: "))
+            num3 = float(input("Enter third number: "))
+            num4 = float(input("Enter fourth number: "))
+            num5 = float(input("Enter fifth number: "))
+            num6 = float(input("Enter sixth number: "))
+            num7 = float(input("Enter 7th number: "))
+            num8 = float(input("Enter 8th number: "))
+            phase1 = num1 + num2 + num3 + num4 + num5 + num6 + num7 + num8
+            phase2 = phase1 / NumAmount
+            print(phase2)
+        elif NumAmount == 9:
+            num1 = float(input("Enter first number: "))
+            num2 = float(input("Enter second number: "))
+            num3 = float(input("Enter third number: "))
+            num4 = float(input("Enter fourth number: "))
+            num5 = float(input("Enter fifth number: "))
+            num6 = float(input("Enter sixth number: "))
+            num7 = float(input("Enter 7th number: "))
+            num8 = float(input("Enter 8th number: "))
+            num9 = float(input("Enter 9th number: "))
+            phase1 = num1 + num2 + num3 + num4 + num5 + num6 + num7 + num8 + num9
+            phase2 = phase1 / NumAmount
+            print(phase2)
+        elif NumAmount == 10:
+            num1 = float(input("Enter first number: "))
+            num2 = float(input("Enter second number: "))
+            num3 = float(input("Enter third number: "))
+            num4 = float(input("Enter fourth number: "))
+            num5 = float(input("Enter fifth number: "))
+            num6 = float(input("Enter sixth number: "))
+            num7 = float(input("Enter 7th number: "))
+            num8 = float(input("Enter 8th number: "))
+            num9 = float(input("Enter 9th number: "))
+            num10 = float(input("Enter 10th number: "))
+            phase1 = num1 + num2 + num3 + num4 + num5 + num6 + num7 + num8 + num9 + num10
+            phase2 = phase1 / NumAmount
+            print(phase2)
+            
+    print("Select operation.")
+    print("1.Add")
+    print("2.Subtract")
+    print("3.Multiply")
+    print("4.Divide")
+    print("5.Finding the mean (Max amount of numbers is 10!)")
+    print("6.Exit Calculator")
+
+    choice = float(input("Pick your choice (1/2/3/4/5): "))
+
+    if choice == 1:
+        calculatorAddFunction()
+    elif choice == 2:
+        calculatorSubtractFunction()
+    elif choice == 3:
+        calculatorMultiplyFunction()
+    elif choice == 4:
+        calculatorDivideFunction()
+    elif choice == 5:
+        calculatorMeanFunction()
+    elif choice == 6:
+        sys.exit()
+        
+    time.sleep(2)
+
+
+
+
+
+
+
+
+
